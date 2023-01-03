@@ -32,3 +32,5 @@ python manage.py runserver
     path('teacher/subjectScore', tch_get_subject_score, name='获取某考试中所有人某科的分数'),
     path('teacher/simpleAnswerRecords', tch_get_simple_answer_records, name='获取某班某科（某题）的分数'),
 ```
+
+ 暂时只支持GET，使用时必须传入usr用户名和pwd密码2个参数，其他参数可以自己查阅views.py文件。
