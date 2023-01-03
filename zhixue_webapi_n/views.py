@@ -151,7 +151,6 @@ def tch_get_simple_answer_records(request):
         return basic_error(e, 16, '获取考试答题记录失败')
 
 
-
 def tch_get_subject_score(request):
     try:
         account = user_login(request)
